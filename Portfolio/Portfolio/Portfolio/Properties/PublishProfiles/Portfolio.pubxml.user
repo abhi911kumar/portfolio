@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Publish files\Portfolio\V3.0</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/11/2017 14:48:03</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>02/11/2017 14:48:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>02/11/2017 12:59:52</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/11/2017 14:48:02</publishTime>
+    </File>
+    <File Include="bin/Portfolio.dll">
+      <publishTime>08/11/2017 19:12:36</publishTime>
+    </File>
+    <File Include="bin/Portfolio.pdb">
+      <publishTime>08/11/2017 19:12:36</publishTime>
+    </File>
+    <File Include="bin/robots.txt">
+      <publishTime>02/28/2017 10:02:48</publishTime>
+    </File>
+    <File Include="bin/sitemap.xml">
+      <publishTime>02/28/2017 09:57:44</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/11/2017 14:48:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/11/2017 14:48:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2017 14:48:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/11/2017 14:48:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/11/2017 14:48:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/11/2017 14:48:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/11/2017 14:48:01</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>02/11/2017 14:48:02</publishTime>
+    </File>
+    <File Include="Content/AppCss/creative.css">
+      <publishTime>08/11/2017 15:32:39</publishTime>
+    </File>
+    <File Include="Content/AppCss/creative.min.css">
+      <publishTime>02/11/2017 14:34:39</publishTime>
+    </File>
+    <File Include="Content/AppCss/custom.css">
+      <publishTime>08/11/2017 18:53:19</publishTime>
+    </File>
+    <File Include="Content/AppCss/ErrorPage/ErrorCss.css">
+      <publishTime>02/27/2017 16:47:09</publishTime>
+    </File>
+    <File Include="Content/AppCss/ErrorPage/IncompatibleBrowser.css">
+      <publishTime>02/27/2017 16:52:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>02/11/2017 14:48:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>02/11/2017 14:48:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>02/11/2017 14:48:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>02/11/2017 14:48:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/11/2017 14:48:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>02/11/2017 14:48:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/11/2017 14:48:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>02/11/2017 14:48:06</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>02/11/2017 12:59:44</publishTime>
+    </File>
+    <File Include="Content/Timeline-Css.css">
+      <publishTime>02/13/2017 12:54:07</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>02/11/2017 12:59:44</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/11/2017 14:48:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/11/2017 14:48:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/11/2017 14:48:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/11/2017 14:48:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>02/11/2017 14:48:05</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/11/2017 12:59:44</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/27/2017 14:37:01</publishTime>
+    </File>
+    <File Include="PrivateSettings.config">
+      <publishTime>02/27/2017 15:56:01</publishTime>
+    </File>
+    <File Include="Resources/Images/AppIcons/keyply.png">
+      <publishTime>08/11/2017 11:57:36</publishTime>
+    </File>
+    <File Include="Resources/Images/AppIcons/Phoenix.png">
+      <publishTime>08/11/2017 11:57:36</publishTime>
+    </File>
+    <File Include="Resources/Images/background.jpg">
+      <publishTime>08/11/2017 11:57:36</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/android-icon-144x144.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/android-icon-192x192.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/android-icon-36x36.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/android-icon-48x48.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/android-icon-72x72.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/android-icon-96x96.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon-114x114.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon-120x120.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon-144x144.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon-152x152.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon-180x180.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon-57x57.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon-60x60.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon-72x72.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon-76x76.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon-precomposed.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/apple-icon.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/favicon-16x16.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/favicon-32x32.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/favicon-96x96.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/favicon.ico">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/manifest.json">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/ms-icon-144x144.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/ms-icon-150x150.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/ms-icon-310x310.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/favicon/ms-icon-70x70.png">
+      <publishTime>02/16/2017 11:50:09</publishTime>
+    </File>
+    <File Include="Resources/Images/header.jpg">
+      <publishTime>02/11/2017 18:10:07</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/fullsize/1.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/fullsize/2.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/fullsize/3.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/fullsize/4.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/fullsize/5.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/fullsize/6.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/HeaderImages/Abhishek Mallick.png">
+      <publishTime>02/28/2017 13:01:25</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/HeaderImages/yenYang.png">
+      <publishTime>07/11/2017 11:02:07</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/logoAbhishek.png">
+      <publishTime>08/11/2017 09:56:28</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/thumbnails/1.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/thumbnails/2.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/thumbnails/3.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/thumbnails/4.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/thumbnails/5.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Images/portfolio/thumbnails/6.jpg">
+      <publishTime>02/11/2017 14:37:04</publishTime>
+    </File>
+    <File Include="Resources/Vendor/magnific-popup/jquery.magnific-popup.js">
+      <publishTime>02/11/2017 14:36:34</publishTime>
+    </File>
+    <File Include="Resources/Vendor/magnific-popup/jquery.magnific-popup.min.js">
+      <publishTime>02/11/2017 14:36:34</publishTime>
+    </File>
+    <File Include="Resources/Vendor/magnific-popup/magnific-popup.css">
+      <publishTime>02/11/2017 14:36:34</publishTime>
+    </File>
+    <File Include="Resources/Vendor/scrollreveal/scrollreveal.js">
+      <publishTime>02/11/2017 14:36:34</publishTime>
+    </File>
+    <File Include="Resources/Vendor/scrollreveal/scrollreveal.min.js">
+      <publishTime>02/11/2017 14:36:34</publishTime>
+    </File>
+    <File Include="robots.txt">
+      <publishTime>02/28/2017 10:02:48</publishTime>
+    </File>
+    <File Include="Scripts/AppJs/creative.js">
+      <publishTime>08/11/2017 18:56:43</publishTime>
+    </File>
+    <File Include="Scripts/AppJs/creative.min.js">
+      <publishTime>02/11/2017 14:34:28</publishTime>
+    </File>
+    <File Include="Scripts/AppJs/QuickConnect.js">
+      <publishTime>02/27/2017 16:13:04</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-notify.min.js">
+      <publishTime>02/27/2017 14:42:55</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/11/2017 14:48:05</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/11/2017 14:48:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.js">
+      <publishTime>02/11/2017 14:48:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.js">
+      <publishTime>02/11/2017 14:48:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.map">
+      <publishTime>02/11/2017 14:48:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.js">
+      <publishTime>02/11/2017 14:48:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.js">
+      <publishTime>02/11/2017 14:48:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.map">
+      <publishTime>02/11/2017 14:48:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui.min.js">
+      <publishTime>08/10/2017 20:36:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>02/27/2017 14:27:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>02/27/2017 14:27:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>02/27/2017 14:37:01</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>02/27/2017 14:37:01</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>02/27/2017 14:27:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/27/2017 14:27:09</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>02/11/2017 14:48:12</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>02/11/2017 14:48:13</publishTime>
+    </File>
+    <File Include="Scripts/respond.matchmedia.addListener.js">
+      <publishTime>02/11/2017 14:48:13</publishTime>
+    </File>
+    <File Include="Scripts/respond.matchmedia.addListener.min.js">
+      <publishTime>02/11/2017 14:48:13</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>02/11/2017 14:48:13</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>03/02/2017 13:01:26</publishTime>
+    </File>
+    <File Include="sitemap.xml">
+      <publishTime>02/28/2017 09:57:44</publishTime>
+    </File>
+    <File Include="Views/ErrorPage/Error.cshtml">
+      <publishTime>03/02/2017 13:10:26</publishTime>
+    </File>
+    <File Include="Views/ErrorPage/IncompatibleBrowser.cshtml">
+      <publishTime>03/02/2017 13:10:53</publishTime>
+    </File>
+    <File Include="Views/ErrorPage/Index.cshtml">
+      <publishTime>03/02/2017 13:11:03</publishTime>
+    </File>
+    <File Include="Views/ErrorPage/JavaScriptDisabled.cshtml">
+      <publishTime>03/02/2017 13:11:22</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/11/2017 15:28:00</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_AboutPage.cshtml">
+      <publishTime>08/11/2017 16:45:02</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_AppHost.cshtml">
+      <publishTime>08/11/2017 17:07:35</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_BlogPage.cshtml">
+      <publishTime>08/10/2017 22:47:41</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_Carousel.cshtml">
+      <publishTime>08/11/2017 17:08:33</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_ContactPage.cshtml">
+      <publishTime>08/11/2017 17:55:38</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_EducationPage.cshtml">
+      <publishTime>08/10/2017 22:50:55</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_ExperiencePage.cshtml">
+      <publishTime>08/10/2017 22:51:00</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_HeaderPage.cshtml">
+      <publishTime>08/11/2017 17:09:17</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_LatestFeeds.cshtml">
+      <publishTime>08/11/2017 17:08:21</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_ProjectPage.cshtml">
+      <publishTime>08/11/2017 17:45:18</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_SkillPage.cshtml">
+      <publishTime>08/11/2017 16:26:57</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_SocialConnect.cshtml">
+      <publishTime>08/11/2017 17:08:00</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>02/11/2017 12:59:44</publishTime>
+    </File>
+    <File Include="Views/Shared/LayoutItems/_NavBar.cshtml">
+      <publishTime>08/11/2017 19:00:19</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/10/2017 20:37:01</publishTime>
+    </File>
+    <File Include="Views/Utility/_QuickConnectEmailTemplate.cshtml">
+      <publishTime>02/27/2017 16:24:14</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>02/11/2017 12:59:44</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>02/11/2017 12:59:44</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/11/2017 19:09:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
