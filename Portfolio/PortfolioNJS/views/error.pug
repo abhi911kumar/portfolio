@@ -1,0 +1,13 @@
+﻿extends error_layout
+
+block content
+  .error-code_container
+  .error-code
+    | #{error.status} !
+  .error-details_container
+    .error-details
+      p.error-description #{message}
+      //p #{error.stack}
+      br
+      .clearfix
+        a(href='/') Go Home

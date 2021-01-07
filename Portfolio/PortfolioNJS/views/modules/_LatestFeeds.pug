@@ -1,0 +1,111 @@
+#newsFeeds.col-lg-4.hidden-md.hidden-sm.hidden-xs
+  .panel-group
+    .panel.panel-default
+      .panel-heading
+        h4.panel-title
+          span.postCount.pull-right Things I encounter &amp; wanted to share
+          button.btn.btn-primary.btn-sm(data-toggle='collapse', href='#collapseNews', onclick="$('#newsFeeds').toggleClass('focusNews');overlayOn()") Blog Posts
+          button.btn.btn-danger.btn-sm(data-toggle='collapse', href='#collapseNews', onclick="$('#newsFeeds').toggleClass('focusNews');overlayOff()")
+            i.fa.fa-times
+      #collapseNews.panel-collapse.collapse
+        #newsCarousel.carousel.slide(data-ride='carousel', data-interval='false')          
+          // Wrapper for slides
+          .carousel-inner
+            .item.active
+              .container.newsContent
+                .row
+                  .col-lg-10.col-lg-offset-1.text-center
+                    h3.section-heading Apache Knox Setup and HDFS and Hive Accessing BigData
+                    hr
+                    p
+                      | Apache Knox: The Apache Knox&trade; Gateway is an Application Gateway for interacting with the REST APIs and UIs of Apache Hadoop deployments. Setup Knox ....
+                    a.btn.btn-default.btn-sm.sr-button(href='https://abhishekmallickblog.wordpress.com/2017/07/20/apache-knox-setup-and-hdfs-and-hive-accessing-bigdata/') Read More
+            .item
+              .container.newsContent
+                .row
+                  .col-lg-10.col-lg-offset-1.text-center
+                    h3.section-heading Augmented Reality Project &ndash; Beginner
+                    hr
+                    p
+                      | Definition: Augmented Reality is a technology which superimpose computer generated image over the user&apos;s vision of real world. Few Example: Google glass Microsoft Hololens Pokemon GO ....
+                    a.btn.btn-default.btn-sm.sr-button(href='https://abhishekmallickblog.wordpress.com/2017/06/17/augmented-reality-project-beginner/') Read More
+            .item
+              .container.newsContent
+                .row
+                  .col-lg-10.col-lg-offset-1.text-center
+                    h3.section-heading Solutions to Date-Time Issue between Server Clients at different Timezone
+                    hr
+                    p
+                      | You can&apos;t control the clients timezone. You can only control your server side timezone. You can&apos;t force a your client ....
+                    a.btn.btn-default.btn-sm.sr-button(href='https://abhishekmallickblog.wordpress.com/2017/05/22/solutions-to-date-time-issue-between-server-clients-at-different-timezone/') Read More
+            .item
+              .container.newsContent
+                .row
+                  .col-lg-10.col-lg-offset-1.text-center
+                    h3.section-heading CSS &ndash; Cascading Style Sheets
+                    hr
+                    p
+                      | Introduction Definition: CSS stands for Cascading Style Sheets. It is used to give the different stylings to the HTML to how it should look on a Different Size Screens, Printed Paper and all other ways ....
+                    a.btn.btn-default.btn-sm.sr-button(href='https://abhishekmallickblog.wordpress.com/2017/03/06/css-cascading-style-sheets/') Read More
+            .item
+              .container.newsContent
+                .row
+                  .col-lg-10.col-lg-offset-1.text-center
+                    h3.section-heading Swap Memory in Windows and Linux
+                    hr
+                    p
+                      | Swap memory in Windows and Linux is a area on a hard disk used as the virtual memory extension of a computer&apos;s RAM (Random Access Memory). The files in the RAM ....
+                    a.btn.btn-default.btn-sm.sr-button(href='https://abhishekmallickblog.wordpress.com/2017/03/03/swap-memory-in-windows-and-linux/') Read More
+            .item
+              .container.newsContent
+                .row
+                  .col-lg-10.col-lg-offset-1.text-center
+                    h3.section-heading Speech Synthesis API: My Browser talks !
+                    hr
+                    p
+                      | The Web Speech API adds to JavaScript: Voice recognition (speech to text) Speech synthesis (text to speech) Here we will talk about Speech synthesis (text to speech) ....
+                    a.btn.btn-default.btn-sm.sr-button(href='https://abhishekmallickblog.wordpress.com/2017/02/23/speech-synthesis-api-my-browser-talks-what-i-type/') Read More
+            .item
+              .container.newsContent
+                .row
+                  .col-lg-10.col-lg-offset-1.text-center
+                    h3.section-heading Create Areas in the MVC project
+                    hr
+                    p
+                      | Introduction to Area Areas are logical grouping of Controller, Models and Views and other related folders for a module in MVC project. Steps to create ....
+                    a.btn.btn-default.btn-sm.sr-button(href='https://abhishekmallickblog.wordpress.com/2017/02/21/create-areas-in-the-mvc-project/') Read More
+            .item
+              .container.newsContent
+                .row
+                  .col-lg-10.col-lg-offset-1.text-center
+                    h3.section-heading ASP.NET MVC Web.config move AppSettings to separate file
+                    hr
+                    p
+                      | Let&rsquo;s get the appSettings inside the web.config file to a separate file for better maintenance of the code ....
+                    a.btn.btn-default.btn-sm.sr-button(href='https://abhishekmallickblog.wordpress.com/2017/02/16/asp-net-mvc-web-config-move-appsettings-to-separate-file/') Read More
+            .item
+              .container.newsContent
+                .row
+                  .col-lg-10.col-lg-offset-1.text-center
+                    h3.section-heading ASP.NET MVC Web.config move ConnectionStrings to separate file
+                    hr
+                    p
+                      | Let&apos;s get the connectionStrings inside the web.config file to a separate file for better maintenance of the code ....
+                    a.btn.btn-default.btn-sm.sr-button(href='https://abhishekmallickblog.wordpress.com/2017/02/16/asp-net-mvc-web-config-get-connectionstring-of-database-to-separate-file/') Read More
+            .item
+              .container.newsContent
+                .row
+                  .col-lg-10.col-lg-offset-1.text-center
+                    h3.section-heading Layout Creation using Bootstrap Template &amp; ASP.Net MVC
+                    hr
+                    p
+                      | After doing lots of browsing and rejection you finally was able to freeze on a UI theme for the application. Now it&apos;s time to put this layout in a new asp.net mvc application ....
+                    a.btn.btn-default.btn-sm.sr-button(href='https://abhishekmallickblog.wordpress.com/2017/02/15/layout-creation-usin-bootstrap-template-asp-net-mvc/') Read More
+            .clearfix
+          // Left and right controls
+          a.left.carousel-control(href='#newsCarousel', data-slide='prev')
+            span.glyphicon.glyphicon-chevron-left
+            span.sr-only Previous
+          a.right.carousel-control(href='#newsCarousel', data-slide='next')
+            span.glyphicon.glyphicon-chevron-right
+            span.sr-only Next

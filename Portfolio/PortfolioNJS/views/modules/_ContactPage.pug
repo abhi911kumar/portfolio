@@ -1,0 +1,63 @@
+//| @model Portfolio.Models.ConnectMailViewModel
+
+script(src='/Scripts/jquery.validate.min.js')
+script(src='/Scripts/jquery.validate.unobtrusive.min.js')
+script(src='/Scripts/jquery.unobtrusive-ajax.min.js')
+script(src='/Scripts/AppJs/QuickConnect.js')
+section#contact.infoContainer.no-padding
+  .container
+    h2 Let&apos;s get in Touch
+    .row
+      .col-lg-6.col-sm-12.col-sm-12
+        h5 Contact Details
+        ul.list-unstyled(itemscope='', itemtype='http://www.abhishekkumarmallick.com/#contact')
+          li(itemprop='skype')
+            i.fa.fa-skype
+            |  Skype: abhi911kumar
+          li
+            i.fa.fa-envelope-o
+            |  Email: 
+            a(href='mailto:connect@abhishekkumarmallick.com', itemprop='email') connect@abhishekkumarmallick.com
+          li
+            i.fa.fa-globe
+            |  Website: 
+            a(href='http://www.abhishekkumarmallick.com') www.abhishekkumarmallick.com
+        .clearfix
+        hr
+        .clearfix
+        h5 Social Connect
+        div
+          a.btn.btn-default.btn-circle(href='https://www.facebook.com/abhinnovator/', target='_blank')
+            i.fa.fa-facebook.fa-2x
+          a.btn.btn-default.btn-circle(href='https://twitter.com/abhi911kumar', target='_blank')
+            i.fa.fa-twitter.fa-2x
+          a.btn.btn-default.btn-circle(href='https://www.linkedin.com/in/abhishek-m-613a6b21', target='_blank')
+            i.fa.fa-linkedin.fa-2x
+          a.btn.btn-default.btn-circle(href='https://abhishekmallickblog.wordpress.com/', target='_blank')
+            i.fa.fa-wordpress.fa-2x
+          a.btn.btn-default.btn-circle(href='mailto:connect@abhishekkumarmallick.com')
+            i.fa.fa-envelope.fa-2x
+        .clearfix
+        hr.light
+        .clearfix
+      .col-lg-6.col-sm-12.col-sm-12
+        h5 Quick Contact Form
+        form#form0.form-horizontal(action='/', data-ajax='true', data-ajax-begin="$(this).find('button').prop('disabled', true).text('Sending Please Wait !');", data-ajax-failure='exceptionOccur', data-ajax-method='POST', data-ajax-success='sentMessage', data-ajax-url='/Utility/SendMail', method='post', novalidate='novalidate')          
+          .form-group
+            label.col-sm-2.control-label Name
+            .col-sm-10
+              input#SenderName.form-control(autocomplete='off', data-val='true', data-val-required='The SenderName field is required.', name='SenderName', placeholder='Your Name', type='text', value='')
+              span.field-validation-valid(data-valmsg-for='SenderName', data-valmsg-replace='true')
+          .form-group
+            label.col-sm-2.control-label Email
+            .col-sm-10
+              input#SenderEmail.form-control(autocomplete='off', data-val='true', data-val-email='Invalid Email Address', data-val-required='The SenderEmail field is required.', name='SenderEmail', placeholder='Your Email-Id', type='text', value='')
+              span.field-validation-valid(data-valmsg-for='SenderEmail', data-valmsg-replace='true')
+          .form-group
+            label.col-sm-2.control-label Message
+            .col-sm-10
+              textarea#SenderMessage.form-control(autocomplete='off', cols='20', data-val='true', data-val-required='The SenderMessage field is required.', name='SenderMessage', placeholder='Your Message', rows='10')
+              span.field-validation-valid(data-valmsg-for='SenderMessage', data-valmsg-replace='true')
+          .form-group
+            .col-sm-10.col-sm-offset-2
+              button.btn.btn-primary.btn-block.btn-sm(type='submit')  Send

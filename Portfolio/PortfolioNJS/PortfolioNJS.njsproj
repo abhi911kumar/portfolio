@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>PortfolioNJS</Name>
+    <RootNamespace>PortfolioNJS</RootNamespace>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>0e07532e-7f58-4121-9c1f-040a62c031a0</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>app.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>true</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app.js" />
+    <Compile Include="public\Resources\Vendor\magnific-popup\jquery.magnific-popup.js" />
+    <Compile Include="public\Resources\Vendor\magnific-popup\jquery.magnific-popup.min.js" />
+    <Compile Include="public\Resources\Vendor\scrollreveal\scrollreveal.js" />
+    <Compile Include="public\Resources\Vendor\scrollreveal\scrollreveal.min.js" />
+    <Compile Include="public\Scripts\AppJs\creative.js" />
+    <Compile Include="public\Scripts\AppJs\QuickConnect.js" />
+    <None Include="public\Scripts\_references.js" />
+    <Compile Include="public\Scripts\bootstrap-notify.min.js" />
+    <Compile Include="public\Scripts\bootstrap.js" />
+    <Compile Include="public\Scripts\bootstrap.min.js" />
+    <None Include="public\Scripts\jquery-3.1.1.intellisense.js" />
+    <Compile Include="public\Scripts\jquery-3.1.1.js" />
+    <Compile Include="public\Scripts\jquery-3.1.1.min.js" />
+    <Compile Include="public\Scripts\jquery-3.1.1.slim.js" />
+    <Compile Include="public\Scripts\jquery-3.1.1.slim.min.js" />
+    <Compile Include="public\Scripts\jquery-ui.min.js" />
+    <Compile Include="public\Scripts\jquery.unobtrusive-ajax.js" />
+    <Compile Include="public\Scripts\jquery.unobtrusive-ajax.min.js" />
+    <None Include="public\Scripts\jquery.validate-vsdoc.js" />
+    <Compile Include="public\Scripts\jquery.validate.js" />
+    <Compile Include="public\Scripts\jquery.validate.min.js" />
+    <Compile Include="public\Scripts\jquery.validate.unobtrusive.js" />
+    <Compile Include="public\Scripts\jquery.validate.unobtrusive.min.js" />
+    <Compile Include="public\Scripts\modernizr-2.8.3.js" />
+    <Compile Include="public\Scripts\respond.js" />
+    <Compile Include="public\Scripts\respond.matchmedia.addListener.js" />
+    <Compile Include="public\Scripts\respond.matchmedia.addListener.min.js" />
+    <Compile Include="public\Scripts\respond.min.js" />
+    <Compile Include="routes\navbar.js" />
+    <Compile Include="routes\index.js" />
+    <Compile Include="routes\users.js" />
+    <Content Include="package.json" />
+    <Content Include="public\Content\AppCss\creative.css" />
+    <Content Include="public\Content\AppCss\custom.css" />
+    <Content Include="public\Content\AppCss\ErrorPage\ErrorCss.css" />
+    <Content Include="public\Content\AppCss\ErrorPage\IncompatibleBrowser.css" />
+    <Content Include="public\Content\bootstrap-theme.css" />
+    <Content Include="public\Content\bootstrap-theme.css.map" />
+    <Content Include="public\Content\bootstrap-theme.min.css" />
+    <Content Include="public\Content\bootstrap-theme.min.css.map" />
+    <Content Include="public\Content\bootstrap.css" />
+    <Content Include="public\Content\bootstrap.css.map" />
+    <Content Include="public\Content\bootstrap.min.css" />
+    <Content Include="public\Content\bootstrap.min.css.map" />
+    <Content Include="public\Content\Site.css" />
+    <Content Include="public\Content\Timeline-Css.css" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="public\Resources\Images\AppIcons\keyply.png" />
+    <Content Include="public\Resources\Images\AppIcons\Phoenix.png" />
+    <Content Include="public\Resources\Images\background.jpg" />
+    <Content Include="public\Resources\Images\favicon\android-icon-144x144.png" />
+    <Content Include="public\Resources\Images\favicon\android-icon-192x192.png" />
+    <Content Include="public\Resources\Images\favicon\android-icon-36x36.png" />
+    <Content Include="public\Resources\Images\favicon\android-icon-48x48.png" />
+    <Content Include="public\Resources\Images\favicon\android-icon-72x72.png" />
+    <Content Include="public\Resources\Images\favicon\android-icon-96x96.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon-114x114.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon-120x120.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon-144x144.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon-152x152.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon-180x180.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon-57x57.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon-60x60.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon-72x72.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon-76x76.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon-precomposed.png" />
+    <Content Include="public\Resources\Images\favicon\apple-icon.png" />
+    <Content Include="public\Resources\Images\favicon\browserconfig.xml" />
+    <Content Include="public\Resources\Images\favicon\favicon-16x16.png" />
+    <Content Include="public\Resources\Images\favicon\favicon-32x32.png" />
+    <Content Include="public\Resources\Images\favicon\favicon-96x96.png" />
+    <Content Include="public\Resources\Images\favicon\favicon.ico" />
+    <Content Include="public\Resources\Images\favicon\manifest.json" />
+    <Content Include="public\Resources\Images\favicon\ms-icon-144x144.png" />
+    <Content Include="public\Resources\Images\favicon\ms-icon-150x150.png" />
+    <Content Include="public\Resources\Images\favicon\ms-icon-310x310.png" />
+    <Content Include="public\Resources\Images\favicon\ms-icon-70x70.png" />
+    <Content Include="public\Resources\Images\header.jpg" />
+    <Content Include="public\Resources\Images\portfolio\fullsize\1.jpg" />
+    <Content Include="public\Resources\Images\portfolio\fullsize\2.jpg" />
+    <Content Include="public\Resources\Images\portfolio\fullsize\3.jpg" />
+    <Content Include="public\Resources\Images\portfolio\fullsize\4.jpg" />
+    <Content Include="public\Resources\Images\portfolio\fullsize\5.jpg" />
+    <Content Include="public\Resources\Images\portfolio\fullsize\6.jpg" />
+    <Content Include="public\Resources\Images\portfolio\HeaderImages\Abhishek Mallick.png" />
+    <Content Include="public\Resources\Images\portfolio\HeaderImages\yenYang.png" />
+    <Content Include="public\Resources\Images\portfolio\logoAbhishek.png" />
+    <Content Include="public\Resources\Images\portfolio\thumbnails\1.jpg" />
+    <Content Include="public\Resources\Images\portfolio\thumbnails\2.jpg" />
+    <Content Include="public\Resources\Images\portfolio\thumbnails\3.jpg" />
+    <Content Include="public\Resources\Images\portfolio\thumbnails\4.jpg" />
+    <Content Include="public\Resources\Images\portfolio\thumbnails\5.jpg" />
+    <Content Include="public\Resources\Images\portfolio\thumbnails\6.jpg" />
+    <Content Include="public\Resources\Vendor\magnific-popup\magnific-popup.css" />
+    <Content Include="public\Scripts\jquery-3.1.1.min.map" />
+    <Content Include="public\Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="public\stylesheets\main.css" />
+    <Content Include="README.md" />
+    <Content Include="views\error_layout.pug" />
+    <Content Include="views\modules\_AboutPage.pug" />
+    <Content Include="views\modules\_AppHost.pug" />
+    <Content Include="views\modules\_BlogPage.pug" />
+    <Content Include="views\modules\_Carousel.pug" />
+    <Content Include="views\modules\_ContactPage.pug" />
+    <Content Include="views\modules\_EducationPage.pug" />
+    <Content Include="views\modules\_ExperiencePage.pug" />
+    <Content Include="views\modules\_HeaderPage.pug" />
+    <Content Include="views\modules\_LatestFeeds.pug" />
+    <Content Include="views\modules\_ProjectPage.pug" />
+    <Content Include="views\modules\_SkillPage.pug" />
+    <Content Include="views\modules\_SocialConnect.pug" />
+    <Content Include="views\navbar.pug" />
+    <Content Include="views\index.pug" />
+    <Content Include="views\layout.pug" />
+    <Content Include="views\error.pug" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public\" />
+    <Folder Include="public\Content\" />
+    <Folder Include="public\Content\AppCss\" />
+    <Folder Include="public\Content\AppCss\ErrorPage\" />
+    <Folder Include="public\images\" />
+    <Folder Include="public\javascripts\" />
+    <Folder Include="public\fonts\" />
+    <Folder Include="public\Resources\" />
+    <Folder Include="public\Resources\Images\" />
+    <Folder Include="public\Resources\Images\AppIcons\" />
+    <Folder Include="public\Resources\Images\favicon\" />
+    <Folder Include="public\Resources\Images\portfolio\" />
+    <Folder Include="public\Resources\Images\portfolio\fullsize\" />
+    <Folder Include="public\Resources\Images\portfolio\HeaderImages\" />
+    <Folder Include="public\Resources\Images\portfolio\thumbnails\" />
+    <Folder Include="public\Resources\Vendor\" />
+    <Folder Include="public\Resources\Vendor\magnific-popup\" />
+    <Folder Include="public\Resources\Vendor\scrollreveal\" />
+    <Folder Include="public\Scripts\" />
+    <Folder Include="public\Scripts\AppJs\" />
+    <Folder Include="public\stylesheets\" />
+    <Folder Include="routes\" />
+    <Folder Include="views\" />
+    <Folder Include="views\modules\" />
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
